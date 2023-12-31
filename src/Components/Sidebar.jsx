@@ -12,7 +12,8 @@ import {
 import React, { useState } from "react";
 import { useDisclosure } from "@chakra-ui/react";
 import { MoonIcon, SunIcon, HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
-import Md_Faizan_Resume from "../Md_Faizan_Resume.pdf";
+import Resume from "./Resume/UpdatedResume-31Dec.pdf";
+
 import { AiOutlineDownload } from "react-icons/ai";
 
 const Sidebar = () => {
@@ -51,7 +52,7 @@ const Sidebar = () => {
             >
               <a
                 id="resume-link-1"
-                href={Md_Faizan_Resume}
+                href={Resume}
                 target="_blank"
                 download="Md_Faizan_Resume.pdf"
               >

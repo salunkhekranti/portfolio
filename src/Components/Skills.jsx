@@ -154,27 +154,6 @@ export default function Skills() {
   return (
     <DIV id="skills">
       <h1>Skills</h1>
-      {/* <Slider {...settings}>
-        {sliderData1.map((el, index) => {
-          return (
-            <div key={index} className="skills-card">
-              <Box width={"100%"}>
-                <AnimationOnScroll animateIn="animate__bounceIn">
-                  <Image
-                    ml={"32%"}
-                    w={"32%"}
-                    borderRadius="18px"
-                    className="skills-card-img"
-                    src={el.image}
-                  />
-                  <Text fontSize={"1.7rem"} className="skills-card-name">
-                  </Text>
-                </AnimationOnScroll>
-              </Box>
-            </div>
-          );
-        })}
-      </Slider> */}
       <div class="skill-section">
         <div class="skill-list">
           {sliderData1.map((el, index) => {

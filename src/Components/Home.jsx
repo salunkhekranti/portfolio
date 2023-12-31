@@ -18,7 +18,9 @@ import { ImLinkedin } from "react-icons/im";
 import { FaGithub } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { AiOutlineArrowDown, AiOutlineDownload } from "react-icons/ai";
-import Md_Faizan_Resume from "../Md_Faizan_Resume.pdf";
+import Typewriter from "typewriter-effect";
+import Resume from "./Resume/UpdatedResume-31Dec.pdf";
+
 const Home = () => {
   useEffect(() => {
     AOS.init({ duration: 2500 });
@@ -36,35 +38,30 @@ const Home = () => {
         fontSize={"1.3rem"}
         gap={{ base: "4", md: "6", lg: "8" }}
         marginBottom={["40px", "0px", "0px"]}
-        // border={"1px solid red"}
-        // justifyContent={"space-evenly"}
       >
         <Flex
           maxWidth={{ base: "100%", lg: "40%" }}
           flexDir="column"
           gap="1rem"
-          padding={"5px"}
+          padding={5}
         >
-          <Heading
-            id="user-detail-name"
-            fontSize={"2.5rem"}
-            textAlign={"start"}
-          >
+          <Heading id="user-detail-name" fontSize={"2rem"} textAlign={"start"}>
             Hi I am Ashwini Nagargoje
           </Heading>
           <Text fontSize={"1.4rem"} textAlign={"start"}>
-            {" "}
-            Full stack web developer
+            <Typewriter
+              options={{
+                strings: ["Full stack web developer", "Software developer"],
+                autoStart: true,
+                loop: true,
+              }}
+            />
           </Text>
           <Text textAlign={"start"}>
-            Experienced Full Stack Developer with a strong emphasis on frontend
-            technologies. Specializing in crafting visually appealing,
-            performance-optimized web interfaces. Committed to delivering
-            exceptional user experiences through mastery of frontend development
-            <br />
-            <br />
-            Looking forward to joining a progressive organization with
-            opportunities to work on challenging projects.
+            Experienced and passionate full stack developer trained and skilled
+            in MERN stack at Masai school, looking forward to join a startup
+            where I can enhance my skills and can become an asset to the
+            organisation.
           </Text>
           <Flex gap={"8"} align="center">
             <Button
@@ -81,7 +78,7 @@ const Home = () => {
             >
               <a
                 id="resume-link-2"
-                href={Md_Faizan_Resume}
+                href={Resume}
                 target="_blank"
                 rel="noreferrer"
                 download="Md_Faizan_Resume.pdf"
