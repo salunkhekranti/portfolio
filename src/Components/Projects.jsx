@@ -105,7 +105,14 @@ export default function Projects() {
               <img src={ele.image} data-aos="fade-up-right" alt="pro_img" />
             </div>
             <div className="pro-dis">
-              <h1 className="title-pro project-title">{ele.name}</h1>
+              <h1
+                className="title-pro project-title"
+                style={{
+                  marginBottom: 3,
+                }}
+              >
+                {ele.name}
+              </h1>
               <h1 className="project-description" style={{ marginLeft: 2 }}>
                 {ele.dis}
               </h1>
@@ -177,19 +184,22 @@ const DIV = styled.div`
     font-size: 1.6rem;
   }
   .animation div {
-    width: 50%;
+    width: 70%;
   }
   .pro-dis {
     text-align: center;
     justify-content: center;
     line-height: 1.6;
     font-size: 1.1rem;
+    margin-left: 10px;
   }
   .dep-btn {
     display: flex;
     justify-content: space-between;
     width: 100%;
     margin: 10px auto;
+    padding: 10px;
+    gap: 20px;
   }
   img {
     border-radius: 10px;
@@ -218,6 +228,7 @@ const DIV = styled.div`
     }
     .pro-img {
       width: 95% !important;
+      margin-bottom: 15px;
     }
     .pro-img img {
       width: 100%;
