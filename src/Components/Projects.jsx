@@ -33,6 +33,18 @@ export default function Projects() {
       github: "https://github.com/Ashwininagargoje703/Fruits-Store",
       link: "https://fruits-store-three.vercel.app/",
     },
+
+    {
+      anim: "flip-right",
+      image:
+        "https://i.ibb.co/8YBwss5/Whats-App-Image-2023-12-31-at-7-27-03-PM.jpgs",
+      name: "Ecommarce-Website",
+      dis: "An e-commerce website for users to buy and sell products.",
+      pro: "Individuel - Project",
+      tstack: "ReactTs, TypeScript, Tailwind CSS, RestFull API",
+      github: "https://github.com/Ashwininagargoje703/Ecommarce-WebSite",
+      link: "https://ecommarce-web-site.vercel.app/",
+    },
     {
       anim: "flip-right",
       image: "https://i.ibb.co/mcpKr1N/meeshoo.png",
@@ -53,17 +65,7 @@ export default function Projects() {
       github: "https://github.com/MadhanM282/the-bowl-company",
       link: "https://the-bowl-company.vercel.app/",
     },
-    {
-      anim: "flip-right",
-      image:
-        "https://raw.githubusercontent.com/Ashwininagargoje703/Urbonic/master/uboric.png",
-      name: "Urboni-Clone",
-      dis: "An e-commerce website for users to buy and sell products.",
-      pro: "Individuel - Project",
-      tstack: "HTML,CSS,JS",
-      github: "https://github.com/Ashwininagargoje703/Urbonic",
-      link: "https://urbonic.vercel.app/",
-    },
+
     {
       anim: "flip-right",
       image: "https://i.ibb.co/txpKKTc/weather.png",
