@@ -83,74 +83,6 @@ const sliderData1 = [
 ];
 
 export default function Skills() {
-  const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
-    <Box position="absolute" marginTop="200px" marginLeft="40px" zIndex={1}>
-      <ChevronLeftIcon
-        boxSize={10}
-        background="gray.50"
-        borderRadius="50%"
-        color="gray.500"
-        _hover={{ color: "pink.400", background: "gray.50" }}
-        {...props}
-      />
-    </Box>
-  );
-
-  const SlickArrowRight = ({ currentSlide, slideCount, ...props }) => (
-    <Box position="absolute" marginTop="-35px" marginLeft="1460px">
-      <ChevronRightIcon
-        boxSize={10}
-        background="gray.50"
-        borderRadius="50%"
-        color="gray.500"
-        _hover={{ color: "pink.400", background: "gray.50" }}
-        {...props}
-      />
-    </Box>
-  );
-
-  var settings = {
-    dots: false,
-    infinite: false,
-    speed: 1000,
-    slidesToShow: 2.5,
-    slidesToScroll: 2,
-    initialSlide: 0,
-    prevArrow: <SlickArrowLeft />,
-    nextArrow: <SlickArrowRight />,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true,
-          arrows: false,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
-          dots: true,
-          arrows: false,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          dots: true,
-          arrows: false,
-        },
-      },
-    ],
-  };
-
   return (
     <DIV id="skills">
       <h1>Skills</h1>
@@ -219,7 +151,7 @@ const DIV = styled.div`
     padding: 20px;
     text-align: center;
     transition: transform 0.3s ease;
-    width: 150px;
+    width: 180px;
   }
   .skill-card:hover {
     box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;

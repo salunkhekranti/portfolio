@@ -16,9 +16,9 @@ export default function Projects() {
       image:
         "https://i.ibb.co/XsGpDzw/Whats-App-Image-2023-10-26-at-1-56-40-PM.jpg",
       name: "Hiring Farm",
-      dis: "Hirning Farm is a job platform for job seekers and employers, offering the ability to postand apply for positions.",
-      pro: "Individuel - Project",
-      tstack: "ReactJs,HTML,CSS,JS,Axios,MUI, Node.JS",
+      dis: "Hiring Farm is a job platform for job seekers and employers, offering the ability to postand apply for positions.",
+      pro: "Group Project (2 Members)",
+      tstack: "ReactJs | HTML | CSS | JS | Axios | MUI | Node.JS | MongoDB",
       github: "https://github.com/Ashwininagargoje703/Vampire-coders",
       link: "https://hiringfarm.online/",
     },
@@ -29,7 +29,7 @@ export default function Projects() {
       name: "Fruits Store",
       dis: "A responsive fruit store with dynamic product filtering and sorting using ReactJs, Tailwind CSS, and JavaScript.",
       pro: "Individuel - Project",
-      tstack: "React, Tailwind CSS, JSON, Axios,React-Router-Dom",
+      tstack: "React | Tailwind CSS | JSON | Axios | React-Router-Dom",
       github: "https://github.com/Ashwininagargoje703/Fruits-Store",
       link: "https://fruits-store-three.vercel.app/",
     },
@@ -41,7 +41,7 @@ export default function Projects() {
       name: "Ecommarce-Website",
       dis: "An e-commerce website for users to buy and sell products.",
       pro: "Individuel - Project",
-      tstack: "ReactTs, TypeScript, Tailwind CSS, RestFull API",
+      tstack: "ReactTs | TypeScript | Tailwind CSS | RestFull API",
       github: "https://github.com/Ashwininagargoje703/Ecommarce-WebSite",
       link: "https://ecommarce-web-site.vercel.app/",
     },
@@ -49,9 +49,9 @@ export default function Projects() {
       anim: "flip-right",
       image: "https://i.ibb.co/mcpKr1N/meeshoo.png",
       name: "Meesho Clone",
-      dis: "Meesho is a online Shopping & Reselling site in India - Buy & Sell best quality Fashion, Electronics, Home & Kitchen products at lowest prices",
-      pro: "Individuel - Project",
-      tstack: "HTML,CSS,JavaScript,jQuryBootstrap",
+      dis: "Meesho is a online shopping & reselling site in india - Buy & Sell best quality Fashion, Electronics, Home & Kitchen products at lowest prices",
+      pro: "Group Project (6 Members)",
+      tstack: "HTML | CSS | JavaScript | jQury | Bootstrap",
       github: "https://github.com/Ashwininagargoje703/Meesho_clone/",
       link: "https://meesho-clone-gold.vercel.app",
     },
@@ -59,9 +59,9 @@ export default function Projects() {
       anim: "flip-right",
       image: "https://i.ibb.co/RpHJXfj/TheBowl.png",
       name: "TheBowlCompany Clone",
-      dis: "This is a clone if The Bowl Company Which is about Dishes offered by Swiggys new platform that offers food in a special Bowl",
-      pro: "Individuel - Project",
-      tstack: "HTML,CSS,JavaScript,Bootstrap",
+      dis: "This is a clone if The Bowl Company which is about dishes offered by swiggys new platform that offers food in a special Bowl",
+      pro: "Group Project (5 Members)",
+      tstack: "HTML | CSS | JavaScript | NodeJS | Bootstrap",
       github: "https://github.com/MadhanM282/the-bowl-company",
       link: "https://the-bowl-company.vercel.app/",
     },
@@ -70,9 +70,9 @@ export default function Projects() {
       anim: "flip-right",
       image: "https://i.ibb.co/txpKKTc/weather.png",
       name: "Weather-App Google map",
-      dis: "A simple App which is used for Seven Day forcasting  weather and location.Also add tempterature and  wind Speed.",
+      dis: "A simple App which is used for seven day forcasting  weather and location.Also add tempterature and  wind Speed.",
       pro: "Individuel - Project",
-      tstack: "HTML, CSS, JS",
+      tstack: "HTML| CSS | JS",
       github: "https://github.com/Ashwininagargoje703/Weather.gi",
       link: "https://elegant-jones-1248a2.netlify.app/",
     },
@@ -83,7 +83,7 @@ export default function Projects() {
       name: "McDonald-App",
       dis: "A food app here you can search and add foods this page build using html css advace js",
       pro: "Group - Project",
-      tstack: "React,Axios,React-Router-Dom,Redux,Node.js,MongooDB,Telwind CSS",
+      tstack: "HTML| CSS | JS",
       github: "https://github.com/VivekTomar03/FitnessFuel",
       link: "https://frontend-iota-blond.vercel.app/",
     },
@@ -106,15 +106,14 @@ export default function Projects() {
             </div>
             <div className="pro-dis">
               <h1 className="title-pro project-title">{ele.name}</h1>
-              <h1 className="project-description">
+              <h1 className="project-description" style={{ marginLeft: 2 }}>
                 {ele.dis}
-                <span style={{ fontSize: "1rem", color: "teal" }}>
-                  {ele.pro}
-                </span>
               </h1>
 
+              <span style={{ fontSize: "1rem", color: "teal" }}>{ele.pro}</span>
+
               <h2
-                style={{ fontSize: "1rem", color: "red" }}
+                style={{ fontSize: "1rem", color: "#891143", fontWeight: 600 }}
                 className="project-tech-stack"
               >
                 {ele.tstack}
@@ -188,7 +187,7 @@ const DIV = styled.div`
   }
   .dep-btn {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 100%;
     margin: 10px auto;
   }
@@ -230,6 +229,7 @@ const DIV = styled.div`
     .pro-dis {
       line-height: 1.2;
       font-size: 0.7rem;
+      margin-left: 10px;
     }
   }
 `;

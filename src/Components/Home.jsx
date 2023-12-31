@@ -19,7 +19,7 @@ import { FaGithub } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { AiOutlineArrowDown, AiOutlineDownload } from "react-icons/ai";
 import Typewriter from "typewriter-effect";
-import Resume from "./Resume/UpdatedResume-31Dec.pdf";
+import Resume from "./Resume/AshwiniResume.pdf";
 
 const Home = () => {
   useEffect(() => {
@@ -81,7 +81,7 @@ const Home = () => {
                 href={Resume}
                 target="_blank"
                 rel="noreferrer"
-                download="Md_Faizan_Resume.pdf"
+                download="AshwiniResume.pdf"
               >
                 Resume
               </a>
