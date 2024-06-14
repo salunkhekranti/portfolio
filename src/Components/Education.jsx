@@ -17,6 +17,16 @@ export default function Education() {
         EXPERIENCE & EDUCATION
       </h1>
       <div class="timeline">
+
+      <div class="container right">
+          <Card s>
+            <div class="content" data-aos="flip-down">
+              <h2>Full Stack Developer and Web3</h2>
+              <h3>BlockMagix Bengaluru, Karnataka, India</h3>
+              <p>Jan 2024 - Present  </p>
+            </div>
+          </Card>
+        </div>
         <div class="container left">
           <Card s>
             <div class="content" data-aos="flip-down">

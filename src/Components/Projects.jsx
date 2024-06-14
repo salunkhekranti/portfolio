@@ -11,27 +11,77 @@ export default function Projects() {
   }, []);
 
   let projectsarr = [
+  
+ 
+    
+  
+
+   
     {
-      anim: "zoom-in",
-      image:
-        "https://i.ibb.co/XsGpDzw/Whats-App-Image-2023-10-26-at-1-56-40-PM.jpg",
-      name: "Hiring Farm",
-      dis: "Hiring Farm is a job platform for job seekers and employers, offering the ability to postand apply for positions.",
-      pro: "Group Project (2 Members)",
-      tstack: "ReactJs | HTML | CSS | JS | Axios | MUI | Node.JS | MongoDB",
-      github: "https://github.com/Ashwininagargoje703/Vampire-coders",
-      link: "https://hiringfarm.online/",
+      anim: "flip-right",
+      image: "https://i.ibb.co/THBCyNW/game.jpg",
+      name: "GameOcrat",
+      dis: "GameOcrat Project Web3 nd Gaming",
+      tstack: "Web3  | JavaScript | ReactJS| NodeJS | CSS",
+      github: "https://game-o.netlify.app/",
+      link: "https://game-o.netlify.app/",
     },
+  
+
+
+
     {
-      anim: "zoom-in",
-      image:
-        "https://i.ibb.co/CbhNJvL/Whats-App-Image-2023-12-17-at-4-39-31-PM.jpg",
-      name: "Fruits Store",
-      dis: "A responsive fruit store with dynamic product filtering and sorting using ReactJs, Tailwind CSS, and JavaScript.",
-      pro: "Individuel - Project",
-      tstack: "React | Tailwind CSS | JSON | Axios | React-Router-Dom",
-      github: "https://github.com/Ashwininagargoje703/Fruits-Store",
-      link: "https://fruits-store-three.vercel.app/",
+      anim: "flip-right",
+      image: "https://i.ibb.co/hm40MmC/Whats-App-Image-2024-06-14-at-4-44-46-PM.jpg",
+      name: "GamingTheme",
+      dis: "Play Earn & Explore",
+      tstack: "Web3  | JavaScript | ReactJS| NodeJS | CSS",
+      github: "https://web-cf.netlify.app/",
+      link: "https://web-cf.netlify.app/",
+    },
+  
+    {
+      anim: "flip-right",
+      image: "https://i.ibb.co/3vmvs02/Whats-App-Image-2024-06-14-at-4-50-04-PM-1.jpg",
+      name: "Block-Tour",
+      dis: "Empowering Your Web3 Presence",
+      tstack: "Web3  | JavaScript | ReactJS| NodeJS | CSS",
+      github: "https://coinband.netlify.app/",
+      link: "https://coinband.netlify.app/",
+    },
+
+    {
+      "anim": "flip-right",
+      "image": "https://i.ibb.co/hgLq1Vm/Whats-App-Image-2024-06-14-at-4-16-15-PM.jpg",
+      "name": "catoncreationstudio",
+      "description": "Showing 3D model, images and update portfolio and blogs",
+      "pro": "Freelancing - Project",
+      "tstack": "JavaScript | ReactJS | NodeJS | CSS | EDC",
+      "github": "https://catoncreationstudio.in/",
+      "link": "https://catoncreationstudio.in/"
+    },
+    
+
+    {
+      "anim": "zoom-in",
+      "image": "https://i.ibb.co/T0dQrYC/Whats-App-Image-2024-06-14-at-3-52-33-PM.jpg",
+      "name": "3D-Portfolio",
+      "dis": "A modern and sleek portfolio designed using Next.js, featuring advanced animations and transitions. ",
+      "pro": "Freelancing - Project",
+      "tstack": "Next.js | CSS | JS",
+      "github": "https://github.com/Ashwininagargoje703/ak-portfolio",
+      "link": "https://ak-portfolio-3d.netlify.app/"
+    },
+
+    {
+      "anim": "flip-right",
+      "image": "https://i.ibb.co/VMyNJt9/Whats-App-Image-2024-06-14-at-3-44-12-PM.jpg",
+      "name": " PortFolio",
+      "dis": "A visually appealing and interactive portfolio built using React Spring for smooth animations. This project showcases the power of ReactJS combined with CSS and JavaScript to create a dynamic and engaging user experience.",
+      "pro": "Freelancing - Project",
+      "tstack": "ReactJS | CSS | JS",
+      "github": "https://github.com/Ashwininagargoje703/mk-portfolio",
+      "link": "https://megha-k-portfolio.netlify.app/"
     },
 
     {
@@ -45,15 +95,28 @@ export default function Projects() {
       github: "https://github.com/Ashwininagargoje703/Ecommarce-WebSite",
       link: "https://ecommarce-web-site.vercel.app/",
     },
+
     {
-      anim: "flip-right",
-      image: "https://i.ibb.co/mcpKr1N/meeshoo.png",
-      name: "Meesho Clone",
-      dis: "Meesho is a online shopping & reselling site in india - Buy & Sell best quality Fashion, Electronics, Home & Kitchen products at lowest prices",
-      pro: "Group Project (6 Members)",
-      tstack: "HTML | CSS | JavaScript | jQury | Bootstrap",
-      github: "https://github.com/Ashwininagargoje703/Meesho_clone/",
-      link: "https://meesho-clone-gold.vercel.app",
+      anim: "zoom-in",
+      image:
+        "https://i.ibb.co/XsGpDzw/Whats-App-Image-2023-10-26-at-1-56-40-PM.jpg",
+      name: "Hiring Farm",
+      dis: "Hiring Farm is a job platform for job seekers and employers, offering the ability to postand apply for positions.",
+      pro: "Group Project (2 Members)",
+      tstack: "ReactJs | HTML | CSS | JS | Axios | MUI | Node.JS | MongoDB",
+      github: "https://catoncreationstudio.netlify.app/",
+      link: "https://catoncreationstudio.netlify.app/",
+    },
+    {
+      anim: "zoom-in",
+      image:
+        "https://i.ibb.co/CbhNJvL/Whats-App-Image-2023-12-17-at-4-39-31-PM.jpg",
+      name: "Fruits Store",
+      dis: "A responsive fruit store with dynamic product filtering and sorting using ReactJs, Tailwind CSS, and JavaScript.",
+      pro: "Individuel - Project",
+      tstack: "React | Tailwind CSS | JSON | Axios | React-Router-Dom",
+      github: "https://github.com/Ashwininagargoje703/Fruits-Store",
+      link: "https://fruits-store-three.vercel.app/",
     },
     {
       anim: "flip-right",
@@ -65,28 +128,7 @@ export default function Projects() {
       github: "https://github.com/MadhanM282/the-bowl-company",
       link: "https://the-bowl-company.vercel.app/",
     },
-
-    {
-      anim: "flip-right",
-      image: "https://i.ibb.co/txpKKTc/weather.png",
-      name: "Weather-App Google map",
-      dis: "A simple App which is used for seven day forcasting  weather and location.Also add tempterature and  wind Speed.",
-      pro: "Individuel - Project",
-      tstack: "HTML| CSS | JS",
-      github: "https://github.com/Ashwininagargoje703/Weather.gi",
-      link: "https://elegant-jones-1248a2.netlify.app/",
-    },
-
-    {
-      anim: "zoom-in",
-      image: "https://i.ibb.co/sRVqwqW/mc-donald.png",
-      name: "McDonald-App",
-      dis: "A food app here you can search and add foods this page build using html css advace js",
-      pro: "Group - Project",
-      tstack: "HTML| CSS | JS",
-      github: "https://github.com/VivekTomar03/FitnessFuel",
-      link: "https://frontend-iota-blond.vercel.app/",
-    },
+    
   ];
 
   return (

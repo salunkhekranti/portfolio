@@ -57,11 +57,13 @@ const Home = () => {
               }}
             />
           </Text>
-          <Text textAlign={"start"}>
-            Experienced and passionate full stack developer trained and skilled
-            in MERN stack at Masai school, looking forward to join a startup
-            where I can enhance my skills and can become an asset to the
-            organisation.
+          <Text textAlign={"start"} fontSize={"1.1rem"}>
+            I am an experienced full stack and Web3 developer skilled in the
+            MERN stack , Wallet integration (MetaMask, WalletConnect), Web3.js / Ethers.js, with a strong foundation in blockchain development,
+            smart contracts, and dApps. My freelancing background showcases my
+            adaptability and expertise. I am eager to join a forward-thinking
+            startup to contribute to innovative Web3 projects and help shape the
+            future of the decentralized web.
           </Text>
           <Flex gap={"8"} align="center">
             <Button

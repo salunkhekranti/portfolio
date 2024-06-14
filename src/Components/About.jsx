@@ -47,14 +47,17 @@ const About = () => {
           fontSize={"1.3rem"}
           data-aos="fade-left"
         >
-          A passionate experienced Full Stack Developer skilled in MERN stack,
-          moulded and shaped by Masai School's numerous training. Passion and
-          diligence are two traits that I believe most reflect me as an
-          individual. I’ve been faced with many challenges. Without enthusiasm,
-          patience and some degree of positivity, we cannot bring about the
-          change that is needed to a better life! Actively ready to join in a
-          great lively team of a good start-up to adapt me in any situation and
-          environment with ease and perform the best
+          A passionate and experienced Full Stack Developer skilled in the MERN
+          stack. Passion and diligence are two traits that best reflect me as an
+          individual. I believe enthusiasm, patience, and positivity are key to
+          bringing about meaningful change. I am actively ready to join a
+          dynamic and lively startup team, adapt to any situation and
+          environment with ease, and perform at my best. Additionally, I am keen
+          to contribute to innovative Web3 projects, leveraging my expertise in
+          blockchain development, smart contracts, and decentralized
+          applications (dApps). My strong problem-solving abilities and
+          dedication to continuous learning make me an ideal fit for developing
+          cutting-edge solutions.
         </Box>
       </Flex>
     </>
