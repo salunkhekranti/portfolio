@@ -23,8 +23,8 @@ export default function Projects() {
       name: "GameOcrat",
       dis: "GameOcrat Project Web3 nd Gaming",
       tstack: "Web3  | JavaScript | ReactJS| NodeJS | CSS",
-      github: "https://game-o.netlify.app/",
-      link: "https://game-o.netlify.app/",
+      github: "https://gameocrat.netlify.app/",
+      link: "https://gameocrat.netlify.app/",
     },
   
 
