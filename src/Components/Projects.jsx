@@ -11,12 +11,6 @@ export default function Projects() {
   }, []);
 
   let projectsarr = [
-  
- 
-    
-  
-
-   
     {
       anim: "flip-right",
       image: "https://i.ibb.co/THBCyNW/game.jpg",
