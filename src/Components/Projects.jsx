@@ -34,15 +34,15 @@ export default function Projects() {
       link: "https://web-cf.netlify.app/",
     },
   
-    {
-      anim: "flip-right",
-      image: "https://i.ibb.co/3vmvs02/Whats-App-Image-2024-06-14-at-4-50-04-PM-1.jpg",
-      name: "Block-Tour",
-      dis: "Empowering Your Web3 Presence",
-      tstack: "Web3  | JavaScript | ReactJS| NodeJS | CSS",
-      github: "https://coinband.netlify.app/",
-      link: "https://coinband.netlify.app/",
-    },
+    // {
+    //   anim: "flip-right",
+    //   image: "https://i.ibb.co/3vmvs02/Whats-App-Image-2024-06-14-at-4-50-04-PM-1.jpg",
+    //   name: "Block-Tour",
+    //   dis: "Empowering Your Web3 Presence",
+    //   tstack: "Web3  | JavaScript | ReactJS| NodeJS | CSS",
+    //   github: "https://coinband.netlify.app/",
+    //   link: "https://coinband.netlify.app/",
+    // },
 
     {
       "anim": "flip-right",
