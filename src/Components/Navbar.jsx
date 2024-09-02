@@ -13,7 +13,7 @@ import { MoonIcon, SunIcon, HamburgerIcon } from "@chakra-ui/icons";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Helmet } from "react-helmet";
 import { animateScroll as scroll } from "react-scroll";
-import Resume from "./Resume/AshwiniResume.pdf";
+import Resume from "./Resume/Ketan Mohite FullStack developer.pdf";
 import Sidebar from "./Sidebar";
 import "animate.css/animate.min.css";
 import AOS from "aos";
@@ -98,7 +98,7 @@ const Navbar = () => {
     <>
       <div>
         <Helmet>
-          <title>{`Ashwini | ${title}`}</title>
+          <title>{`Ketan | ${title}`}</title>
         </Helmet>
       </div>
       <Box
@@ -119,7 +119,7 @@ const Navbar = () => {
           <Box marginLeft={{ base: "2px", lg: "2rem" }}>
             <Logo onClick={() => scroll.scrollToTop()}>
               <span class="grey-color"> &lt;</span>
-              <span class="logo-name">Ashwini Nagargoje</span>
+              <span class="logo-name">Ketan Mohite</span>
               <span class="grey-color">/&gt;</span>
             </Logo>
           </Box>
@@ -174,7 +174,7 @@ const Navbar = () => {
               className="nav-link resume"
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/drive/folders/1GHjBaSgCKpSB73A50-bNVYulySYCpWNx?usp=sharing",
+                  "https://drive.google.com/drive/u/0/folders/1Wczw_rwiRe26i0P3i4oIoI_gmt4PuiVh",
                   "_blank"
                 );
               }}
@@ -183,7 +183,7 @@ const Navbar = () => {
                 id="resume-link-1"
                 href={Resume}
                 target="_blank"
-                download="AshwiniResume.pdf"
+                download="KetanResume.pdf"
               >
                 Resume
               </a>

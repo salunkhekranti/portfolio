@@ -21,18 +21,18 @@ export default function Education() {
       <div class="container right">
           <Card s>
             <div class="content" data-aos="flip-down">
-              <h2>Full Stack Developer and Web3</h2>
+              <h2>Full Stack Web3 Developer</h2>
               <h3>BlockMagix Bengaluru, Karnataka, India</h3>
-              <p>Jan 2024 - Present  </p>
+              <p>Sept 2023 - Present  </p>
             </div>
           </Card>
         </div>
         <div class="container left">
           <Card s>
             <div class="content" data-aos="flip-down">
-              <h2>Frontend Developer </h2>
-              <h3>AskFundU Delhi, NCR</h3>
-              <p>August 2022 -December 2023, </p>
+              <h2>JR. Software Engineer </h2>
+              <h3>Perpetulblock Pune</h3>
+              <p>August 2022 -august 2023, </p>
             </div>
           </Card>
         </div>
@@ -49,9 +49,9 @@ export default function Education() {
           <Card>
             <Card>
               <div class="content" data-aos="flip-up">
-                <h2>BTech in Electrical Engineering</h2>
-                <h3>Dr. Babasaheb Ambedkar Technological University</h3>
-                <p>June 2018 - July 2021</p>
+                <h2>Masters Of Computer Aplications</h2>
+                <h3>JSPM's RSCOE Tathwade,Pune</h3>
+                <p>June 2020 - July 2022</p>
               </div>
             </Card>
           </Card>
@@ -60,9 +60,9 @@ export default function Education() {
           <Card>
             <Card>
               <div class="content" data-aos="flip-down">
-                <h2>Diploma in Electrical Engineering</h2>
-                <h3>MSBTE, Mumbai</h3>
-                <p>july 2015 - May 2018</p>
+                <h2>Batchelor Of Computer Aplications</h2>
+                <h3>DGCC,Satara</h3>
+                <p>july 2017 - May 2020</p>
               </div>
             </Card>
           </Card>

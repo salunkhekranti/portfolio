@@ -47,7 +47,7 @@ export default function Contacts() {
               leftIcon={<MdPhone color="green" size="20px" />}
               data-aos="zoom-in-up"
             >
-              +91-9699729802
+              +91-9673649521
             </Button>
             <Button
               size="md"
@@ -59,7 +59,7 @@ export default function Contacts() {
               leftIcon={<MdEmail color="#1970F1" size="20px" />}
               data-aos="zoom-in-up"
             >
-              ashwininagargoje703@gmail.com
+              ketanmohite8307@gmail.com
             </Button>
             <Button
               size="md"

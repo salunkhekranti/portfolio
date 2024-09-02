@@ -13,37 +13,13 @@ export default function Projects() {
   let projectsarr = [
     {
       anim: "flip-right",
-      image: "https://i.ibb.co/THBCyNW/game.jpg",
-      name: "GameOcrat",
-      dis: "GameOcrat Project Web3 nd Gaming",
-      tstack: "Web3  | JavaScript | ReactJS| NodeJS | CSS",
-      github: "https://gameocrat.netlify.app/",
-      link: "https://gameocrat.netlify.app/",
-    },
-  
-
-
-
-    {
-      anim: "flip-right",
       image: "https://i.ibb.co/hm40MmC/Whats-App-Image-2024-06-14-at-4-44-46-PM.jpg",
       name: "GamingTheme",
       dis: "Play Earn & Explore",
       tstack: "Web3  | JavaScript | ReactJS| NodeJS | CSS",
       github: "https://web-cf.netlify.app/",
-      link: "https://web-cf.netlify.app/",
+      link: "https://github.com/Blockmagixofficial/CFI/tree/ketan",
     },
-  
-    // {
-    //   anim: "flip-right",
-    //   image: "https://i.ibb.co/3vmvs02/Whats-App-Image-2024-06-14-at-4-50-04-PM-1.jpg",
-    //   name: "Block-Tour",
-    //   dis: "Empowering Your Web3 Presence",
-    //   tstack: "Web3  | JavaScript | ReactJS| NodeJS | CSS",
-    //   github: "https://coinband.netlify.app/",
-    //   link: "https://coinband.netlify.app/",
-    // },
-
     {
       "anim": "flip-right",
       "image": "https://i.ibb.co/hgLq1Vm/Whats-App-Image-2024-06-14-at-4-16-15-PM.jpg",
@@ -54,74 +30,99 @@ export default function Projects() {
       "github": "https://catoncreationstudio.in/",
       "link": "https://catoncreationstudio.in/"
     },
+    {
+      anim: "flip-right",
+      image: "https://i.ibb.co/THBCyNW/game.jpg",
+      name: "GameOcrat",
+      dis: "GameOcrat Project Web3 nd Gaming",
+      tstack: "Web3  | JavaScript | ReactJS| NodeJS | CSS",
+      github: "https://github.com/Blockmagixofficial/GameOcrate-Frontend/tree/web3",
+      link: "https://gameocrat.netlify.app/",
+    },
+  
+
+
+
+
+    // {
+    //   anim: "flip-right",
+    //   image: "https://i.ibb.co/3vmvs02/Whats-App-Image-2024-06-14-at-4-50-04-PM-1.jpg",
+    //   name: "Block-Tour",
+    //   dis: "Empowering Your Web3 Presence",
+    //   tstack: "Web3  | JavaScript | ReactJS| NodeJS | CSS",
+    //   github: "https://coinband.netlify.app/",
+    //   link: "https://coinband.netlify.app/",
+    // },
+
+
     
 
-    {
-      "anim": "zoom-in",
-      "image": "https://i.ibb.co/T0dQrYC/Whats-App-Image-2024-06-14-at-3-52-33-PM.jpg",
-      "name": "3D-Portfolio",
-      "dis": "A modern and sleek portfolio designed using Next.js, featuring advanced animations and transitions. ",
-      "pro": "Freelancing - Project",
-      "tstack": "Next.js | CSS | JS",
-      "github": "https://github.com/Ashwininagargoje703/ak-portfolio",
-      "link": "https://ak-portfolio-3d.netlify.app/"
-    },
+    // {
+    //   "anim": "zoom-in",
+    //   "image": "https://i.ibb.co/T0dQrYC/Whats-App-Image-2024-06-14-at-3-52-33-PM.jpg",
+    //   "name": "3D-Portfolio",
+    //   "dis": "A modern and sleek portfolio designed using Next.js, featuring advanced animations and transitions. ",
+    //   "pro": "Freelancing - Project",
+    //   "tstack": "Next.js | CSS | JS",
+    //   "github": "https://github.com/Ashwininagargoje703/ak-portfolio",
+    //   "link": "https://ak-portfolio-3d.netlify.app/"
+    // },
 
-    {
-      "anim": "flip-right",
-      "image": "https://i.ibb.co/VMyNJt9/Whats-App-Image-2024-06-14-at-3-44-12-PM.jpg",
-      "name": " PortFolio",
-      "dis": "A visually appealing and interactive portfolio built using React Spring for smooth animations. This project showcases the power of ReactJS combined with CSS and JavaScript to create a dynamic and engaging user experience.",
-      "pro": "Freelancing - Project",
-      "tstack": "ReactJS | CSS | JS",
-      "github": "https://github.com/Ashwininagargoje703/mk-portfolio",
-      "link": "https://megha-k-portfolio.netlify.app/"
-    },
+    // {
+    //   "anim": "flip-right",
+    //   "image": "https://i.ibb.co/VMyNJt9/Whats-App-Image-2024-06-14-at-3-44-12-PM.jpg",
+    //   "name": " PortFolio",
+    //   "dis": "A visually appealing and interactive portfolio built using React Spring for smooth animations. This project showcases the power of ReactJS combined with CSS and JavaScript to create a dynamic and engaging user experience.",
+    //   "pro": "Freelancing - Project",
+    //   "tstack": "ReactJS | CSS | JS",
+    //   "github": "https://github.com/Ashwininagargoje703/mk-portfolio",
+    //   "link": "https://megha-k-portfolio.netlify.app/"
+    // },
 
-    {
-      anim: "flip-right",
-      image:
-        "https://i.ibb.co/8YBwss5/Whats-App-Image-2023-12-31-at-7-27-03-PM.jpgs",
-      name: "Ecommarce-Website",
-      dis: "An e-commerce website for users to buy and sell products.",
-      pro: "Individuel - Project",
-      tstack: "ReactTs | TypeScript | Tailwind CSS | RestFull API",
-      github: "https://github.com/Ashwininagargoje703/Ecommarce-WebSite",
-      link: "https://ecommarce-web-site.vercel.app/",
-    },
+    // {
+    //   anim: "flip-right",
+    //   image:
+    //     "https://i.ibb.co/8YBwss5/Whats-App-Image-2023-12-31-at-7-27-03-PM.jpgs",
+    //   name: "Ecommarce-Website",
+    //   dis: "An e-commerce website for users to buy and sell products.",
+    //   pro: "Individuel - Project",
+    //   tstack: "ReactTs | TypeScript | Tailwind CSS | RestFull API",
+    //   github: "https://github.com/Ashwininagargoje703/Ecommarce-WebSite",
+    //   link: "https://ecommarce-web-site.vercel.app/",
+    // },
 
-    {
-      anim: "zoom-in",
-      image:
-        "https://i.ibb.co/XsGpDzw/Whats-App-Image-2023-10-26-at-1-56-40-PM.jpg",
-      name: "Hiring Farm",
-      dis: "Hiring Farm is a job platform for job seekers and employers, offering the ability to postand apply for positions.",
-      pro: "Group Project (2 Members)",
-      tstack: "ReactJs | HTML | CSS | JS | Axios | MUI | Node.JS | MongoDB",
-      github: "https://catoncreationstudio.netlify.app/",
-      link: "https://catoncreationstudio.netlify.app/",
-    },
-    {
-      anim: "zoom-in",
-      image:
-        "https://i.ibb.co/CbhNJvL/Whats-App-Image-2023-12-17-at-4-39-31-PM.jpg",
-      name: "Fruits Store",
-      dis: "A responsive fruit store with dynamic product filtering and sorting using ReactJs, Tailwind CSS, and JavaScript.",
-      pro: "Individuel - Project",
-      tstack: "React | Tailwind CSS | JSON | Axios | React-Router-Dom",
-      github: "https://github.com/Ashwininagargoje703/Fruits-Store",
-      link: "https://fruits-store-three.vercel.app/",
-    },
-    {
-      anim: "flip-right",
-      image: "https://i.ibb.co/RpHJXfj/TheBowl.png",
-      name: "TheBowlCompany Clone",
-      dis: "This is a clone if The Bowl Company which is about dishes offered by swiggys new platform that offers food in a special Bowl",
-      pro: "Group Project (5 Members)",
-      tstack: "HTML | CSS | JavaScript | NodeJS | Bootstrap",
-      github: "https://github.com/MadhanM282/the-bowl-company",
-      link: "https://the-bowl-company.vercel.app/",
-    },
+    // {
+    //   anim: "zoom-in",
+    //   image:
+    //     "https://i.ibb.co/XsGpDzw/Whats-App-Image-2023-10-26-at-1-56-40-PM.jpg",
+    //   name: "Hiring Farm",
+    //   dis: "Hiring Farm is a job platform for job seekers and employers, offering the ability to postand apply for positions.",
+    //   pro: "Group Project (2 Members)",
+    //   tstack: "ReactJs | HTML | CSS | JS | Axios | MUI | Node.JS | MongoDB",
+    //   github: "https://catoncreationstudio.netlify.app/",
+    //   link: "https://catoncreationstudio.netlify.app/",
+    // },
+    // {
+    //   anim: "zoom-in",
+    //   image:
+    //     "https://i.ibb.co/CbhNJvL/Whats-App-Image-2023-12-17-at-4-39-31-PM.jpg",
+    //   name: "Fruits Store",
+    //   dis: "A responsive fruit store with dynamic product filtering and sorting using ReactJs, Tailwind CSS, and JavaScript.",
+    //   pro: "Individuel - Project",
+    //   tstack: "React | Tailwind CSS | JSON | Axios | React-Router-Dom",
+    //   github: "https://github.com/Ashwininagargoje703/Fruits-Store",
+    //   link: "https://fruits-store-three.vercel.app/",
+    // },
+    // {
+    //   anim: "flip-right",
+    //   image: "https://i.ibb.co/RpHJXfj/TheBowl.png",
+    //   name: "TheBowlCompany Clone",
+    //   dis: "This is a clone if The Bowl Company which is about dishes offered by swiggys new platform that offers food in a special Bowl",
+    //   pro: "Group Project (5 Members)",
+    //   tstack: "HTML | CSS | JavaScript | NodeJS | Bootstrap",
+    //   github: "https://github.com/MadhanM282/the-bowl-company",
+    //   link: "https://the-bowl-company.vercel.app/",
+    // },
     
   ];
 

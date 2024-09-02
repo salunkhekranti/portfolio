@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Flex, Image, Text } from "@chakra-ui/react";
+import img from "../assets/ketanImage.jpeg";
 const About = () => {
   return (
     <>
@@ -33,7 +34,7 @@ const About = () => {
             borderRadius="50%"
             boxShadow={"-2px -2px 5px #fff, 2px 2px 5px #babecc"}
             // src="https://www.alwin.io/images/wazirx/banner_img.webp"
-            src="https://i.ibb.co/MgTvvVN/avtar.jpg"
+            src={img}
           />
           {/* https://avatars.githubusercontent.com/u/106812942?v=4 */}
         </Box>
@@ -47,17 +48,15 @@ const About = () => {
           fontSize={"1.3rem"}
           data-aos="fade-left"
         >
-          A passionate and experienced Full Stack Developer skilled in the MERN
-          stack. Passion and diligence are two traits that best reflect me as an
-          individual. I believe enthusiasm, patience, and positivity are key to
-          bringing about meaningful change. I am actively ready to join a
-          dynamic and lively startup team, adapt to any situation and
-          environment with ease, and perform at my best. Additionally, I am keen
-          to contribute to innovative Web3 projects, leveraging my expertise in
-          blockchain development, smart contracts, and decentralized
-          applications (dApps). My strong problem-solving abilities and
-          dedication to continuous learning make me an ideal fit for developing
-          cutting-edge solutions.
+          I am a passionate and experienced Full Stack Developer with expertise
+          in the MERN stack. Known for my enthusiasm, patience, and positivity,
+          I believe these qualities are essential for driving meaningful change.
+          I am eager to join a dynamic startup team where I can adapt quickly to
+          new environments and deliver my best work. I am particularly excited
+          about contributing to innovative Web3 projects, using my skills in
+          blockchain development, smart contracts, and dApps. My strong
+          problem-solving abilities and commitment to continuous learning make
+          me an excellent fit for developing cutting-edge solutions.
         </Box>
       </Flex>
     </>

@@ -19,7 +19,7 @@ import { FaGithub } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { AiOutlineArrowDown, AiOutlineDownload } from "react-icons/ai";
 import Typewriter from "typewriter-effect";
-import Resume from "./Resume/AshwiniResume.pdf";
+import Resume from "./Resume/Ketan Mohite FullStack developer.pdf";
 
 const Home = () => {
   useEffect(() => {
@@ -46,24 +46,30 @@ const Home = () => {
           padding={5}
         >
           <Heading id="user-detail-name" fontSize={"2rem"} textAlign={"start"}>
-            Hi I am Ashwini Nagargoje
+            Hi I am Ketan Mohite
           </Heading>
           <Text fontSize={"1.4rem"} textAlign={"start"}>
             <Typewriter
               options={{
-                strings: ["Full stack web developer", "Software developer"],
+                strings: [
+                  "Full stack web developer",
+                  "React developer",
+                  "Software developer",
+                ],
                 autoStart: true,
                 loop: true,
               }}
             />
           </Text>
           <Text textAlign={"start"} fontSize={"1.1rem"}>
-            I am an experienced full stack and Web3 developer skilled in the
-            MERN stack , Wallet integration (MetaMask, WalletConnect), Web3.js / Ethers.js, with a strong foundation in blockchain development,
-            smart contracts, and dApps. My freelancing background showcases my
-            adaptability and expertise. I am eager to join a forward-thinking
-            startup to contribute to innovative Web3 projects and help shape the
-            future of the decentralized web.
+            I am an experienced full-stack developer with over 2 years of
+            expertise in the MERN stack. While I have a foundational
+            understanding of Web3 technologies, my strengths lie in wallet
+            integration (MetaMask, WalletConnect) and smart contract integration
+            within React. My freelancing background highlights my adaptability
+            and skills, and I am eager to join a forward-thinking startup to
+            contribute to innovative projects and help shape the future of the
+            decentralized web.
           </Text>
           <Flex gap={"8"} align="center">
             <Button
@@ -73,7 +79,7 @@ const Home = () => {
               className="nav-link resume"
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/drive/folders/1GHjBaSgCKpSB73A50-bNVYulySYCpWNx?usp=sharing",
+                  "https://drive.google.com/drive/u/0/folders/1Wczw_rwiRe26i0P3i4oIoI_gmt4PuiVh",
                   "_blank"
                 );
               }}
@@ -83,7 +89,7 @@ const Home = () => {
                 href={Resume}
                 target="_blank"
                 rel="noreferrer"
-                download="AshwiniResume.pdf"
+                download="KetanResume.pdf"
               >
                 Resume
               </a>
@@ -95,21 +101,21 @@ const Home = () => {
             <Flex gap="3">
               <Link
                 id="contact-linkedin"
-                href="https://www.linkedin.com/in/ashwini-nagargoje-259b5122b/"
+                href="https://www.linkedin.com/in/ketan-mohite/"
                 isExternal
               >
                 <ImLinkedin fontSize={"1.6rem"} />
               </Link>
               <Link
                 id="contact-github"
-                href="https://github.com/Ashwininagargoje703"
+                href="https://github.com/Ketan281"
                 isExternal
               >
                 <FaGithub fontSize={"1.6rem"} />
               </Link>
               <Link
                 id="contact-email"
-                href="https://ashwininagargoje703@gmail.com"
+                href="https://ketanmohite8307@gmail.com"
                 isExternal
               >
                 <HiOutlineMail fontSize={"1.6rem"} />

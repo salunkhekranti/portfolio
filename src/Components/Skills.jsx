@@ -7,7 +7,7 @@ import "animate.css/animate.min.css";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import { Box, Card, Image, Text } from "@chakra-ui/react";
 import styled from "styled-components";
-
+import next from "../assets/next-js.svg"
 const sliderData1 = [
 
   {
@@ -96,6 +96,26 @@ const sliderData1 = [
     image:
       "https://user-images.githubusercontent.com/106812942/255088314-35bd02cd-4771-4156-9409-5f5a4c74155a.png",
     name: "CSS",
+  },
+  {
+    image:
+      "https://media.licdn.com/dms/image/v2/D4D12AQFJWfUQaQ1qPg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1675674296261?e=1730937600&v=beta&t=jX9dORCcfckJLrFe-za5u-ZhdcVAGTp-zW9pvDc8COI",
+    name: "Next.js",
+  },
+  {
+    image:
+      "https://camo.githubusercontent.com/70ec62b59182d7ecbc34f6cfe6f043d6ca17b133c398871ef1cdab0fa4d1e424/68747470733a2f2f67772e616c697061796f626a656374732e636f6d2f7a6f732f726d73706f7274616c2f4b4470677667754d704766716148506a6963524b2e737667",
+    name: "Antd",
+  },
+  {
+    image:
+      "https://iconape.com/wp-content/files/dx/352988/png/jest-logo.png",
+    name: "Jest",
+  },
+  {
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/8/86/Chart.js_logo.svg",
+    name: "Chart.js",
   },
 ];
 
