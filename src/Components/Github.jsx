@@ -26,7 +26,7 @@ const Github = () => {
             data-aos-anchor-placement="center-bottom"
           >
             <GitHubCalendar
-              username="Ketan281"
+              username="Ashwininagargoje703"
               className="react-activity-calendar"
             />
           </Card>
@@ -44,7 +44,7 @@ const Github = () => {
               data-aos="fade-right"
               id="github-streak-stats"
               width="450px"
-              src="https://github-readme-streak-stats.herokuapp.com/?user=Ketan281&count_private=true&show_icons=true&custom_title=Github&theme=algolia&bg_color=0,000000,130F40&layout=compact&border_radius=8"
+              src="https://github-readme-streak-stats.herokuapp.com/?user=Ashwininagargoje703&count_private=true&show_icons=true&custom_title=Github&theme=algolia&bg_color=0,000000,130F40&layout=compact&border_radius=8"
             />
           </Box>
           <Box>
@@ -53,7 +53,7 @@ const Github = () => {
               data-aos="fade-up"
               id="github-top-langs"
               width="450px"
-              src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ketan281&count_private=true&theme=algolia&bg_color=0,000000,130F40&layout=compact&border_radius=8&langs_count=20&hide=hack,swift,kotlin,objective-c"
+              src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ashwininagargoje703&count_private=true&theme=algolia&bg_color=0,000000,130F40&layout=compact&border_radius=8&langs_count=20&hide=hack,swift,kotlin,objective-c"
             />
           </Box>
           <Box>
