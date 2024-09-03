@@ -39,13 +39,23 @@ export default function Education() {
         <div class="container right">
           <Card s>
             <div class="content" data-aos="flip-down">
+              <h2>JR. Frontend Developer </h2>
+              <h3>Pawar software solutions Pune</h3>
+              <p>Jan 2022 -august 2022, </p>
+            </div>
+          </Card>
+        </div>
+        <div class="container left">
+          <Card s>
+            <div class="content" data-aos="flip-down">
               <h2>Full Stack Web Developement</h2>
               <h3>Masai School</h3>
               <p>Oct 2021 - June 2022</p>
             </div>
           </Card>
         </div>
-        <div class="container left">
+
+        <div class="container right">
           <Card>
             <Card>
               <div class="content" data-aos="flip-up">
@@ -56,7 +66,7 @@ export default function Education() {
             </Card>
           </Card>
         </div>
-        <div class="container right">
+        <div class="container left">
           <Card>
             <Card>
               <div class="content" data-aos="flip-down">
