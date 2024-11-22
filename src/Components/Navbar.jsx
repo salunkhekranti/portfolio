@@ -119,7 +119,7 @@ const Navbar = () => {
           <Box marginLeft={{ base: "2px", lg: "2rem" }}>
             <Logo onClick={() => scroll.scrollToTop()}>
               <span class="grey-color"> &lt;</span>
-              <span class="logo-name">Ketan Mohite</span>
+              <span class="logo-name">Kranti Salunkhe</span>
               <span class="grey-color">/&gt;</span>
             </Logo>
           </Box>

@@ -46,7 +46,7 @@ const Home = () => {
           padding={5}
         >
           <Heading id="user-detail-name" fontSize={"2rem"} textAlign={"start"}>
-            Hi I am Ketan Mohite
+            Hi I am kranti Salunkhe
           </Heading>
           <Text fontSize={"1.4rem"} textAlign={"start"}>
             <Typewriter
@@ -62,7 +62,7 @@ const Home = () => {
             />
           </Text>
           <Text textAlign={"start"} fontSize={"1.1rem"}>
-            I am an experienced full-stack developer with over 2 years of
+            I am an experienced React JS developer with over 2 years of
             expertise in the MERN stack. While I have a foundational
             understanding of Web3 technologies, my strengths lie in wallet
             integration (MetaMask, WalletConnect) and smart contract integration
@@ -108,14 +108,14 @@ const Home = () => {
               </Link>
               <Link
                 id="contact-github"
-                href="https://github.com/Ketan281"
+                href="https://github.com/salunkhekranti"
                 isExternal
               >
                 <FaGithub fontSize={"1.6rem"} />
               </Link>
               <Link
                 id="contact-email"
-                href="https://ketanmohite8307@gmail.com"
+                href="https://salunkhekr2112@gmail.com"
                 isExternal
               >
                 <HiOutlineMail fontSize={"1.6rem"} />
