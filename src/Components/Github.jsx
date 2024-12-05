@@ -39,7 +39,7 @@ const Github = () => {
           gap="7"
         >
           <Box>
-            <Link href="https://github.com/Ketan281" />
+            <Link href="https://github.com/salunkhekranti" />
             <Image
               data-aos="fade-right"
               id="github-streak-stats"
@@ -48,7 +48,7 @@ const Github = () => {
             />
           </Box>
           <Box>
-            <Link href="https://github.com/Ketan281" />
+            <Link href="https://github.com/salunkhekranti" />
             <Image
               data-aos="fade-up"
               id="github-top-langs"
@@ -57,12 +57,12 @@ const Github = () => {
             />
           </Box>
           <Box>
-            <Link href="https://github.com/Ketan281" />
+            <Link href="https://github.com/salunkhekranti" />
             <Image
               data-aos="fade-left"
               width="450px"
               id="github-stats-card"
-              src="https://github-readme-stats.vercel.app/api?username=Ketan281&show_icons=true&count_private=true&theme=algolia&bg_color=0,000000,130F40&layout=compact&border_radius=10"
+              src="https://github-readme-stats.vercel.app/api?username=salunkhekranti&show_icons=true&count_private=true&theme=algolia&bg_color=0,000000,130F40&layout=compact&border_radius=10"
             />
           </Box>
         </Flex>

@@ -4,6 +4,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Button } from "@chakra-ui/react";
 import styled from "styled-components";
+import imag1 from "../images/image1.jpeg"
+import imag2 from "../images/image2.png"
+
 
 export default function Projects() {
   useEffect(() => {
@@ -13,22 +16,22 @@ export default function Projects() {
   let projectsarr = [
     {
       anim: "flip-right",
-      image: "https://i.ibb.co/hm40MmC/Whats-App-Image-2024-06-14-at-4-44-46-PM.jpg",
+      image: imag1,
       name: "GamingTheme",
       dis: "Play Earn & Explore",
       tstack: "Web3  | JavaScript | ReactJS| NodeJS | CSS",
-      github: "https://web-cf.netlify.app/",
-      link: "https://github.com/Blockmagixofficial/CFI/tree/ketan",
+      github: "https://github.com/salunkhekranti/Pizzdeliveryapp",
+      link: "https://pizzdeliveryapp.vercel.app/",
     },
     {
       "anim": "flip-right",
-      "image": "https://i.ibb.co/hgLq1Vm/Whats-App-Image-2024-06-14-at-4-16-15-PM.jpg",
+      "image":imag2,
       "name": "catoncreationstudio",
       "description": "Showing 3D model, images and update portfolio and blogs",
       "pro": "Freelancing - Project",
       "tstack": "JavaScript | ReactJS | NodeJS | CSS | EDC",
-      "github": "https://catoncreationstudio.in/",
-      "link": "https://catoncreationstudio.in/"
+      "github": "https://github.com/salunkhekranti/website2.git",
+      "link": "https://website2-ten-ashen.vercel.app/"
     },
     {
       anim: "flip-right",
@@ -36,8 +39,8 @@ export default function Projects() {
       name: "GameOcrat",
       dis: "GameOcrat Project Web3 nd Gaming",
       tstack: "Web3  | JavaScript | ReactJS| NodeJS | CSS",
-      github: "https://github.com/Blockmagixofficial/GameOcrate-Frontend/tree/web3",
-      link: "https://gameocrat.netlify.app/",
+      // github: "https://github.com/salunkhekranti/website2.git",
+      // link: "website2-ten-ashen.vercel.app/",
     },
   
 

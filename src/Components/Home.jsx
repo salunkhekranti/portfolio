@@ -19,7 +19,8 @@ import { FaGithub } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { AiOutlineArrowDown, AiOutlineDownload } from "react-icons/ai";
 import Typewriter from "typewriter-effect";
-import Resume from "./Resume/Ketan Mohite FullStack developer.pdf";
+import Resume from "./Resume/KRANTI SALUNKHE's Resume.pdf";
+import img from "../assets/banner.png"
 
 const Home = () => {
   useEffect(() => {
@@ -46,7 +47,7 @@ const Home = () => {
           padding={5}
         >
           <Heading id="user-detail-name" fontSize={"2rem"} textAlign={"start"}>
-            Hi I am kranti Salunkhe
+            Hii I Am Kranti Salunkhe
           </Heading>
           <Text fontSize={"1.4rem"} textAlign={"start"}>
             <Typewriter
@@ -89,7 +90,7 @@ const Home = () => {
                 href={Resume}
                 target="_blank"
                 rel="noreferrer"
-                download="KetanResume.pdf"
+                download="Kranti Resume.pdf"
               >
                 Resume
               </a>
@@ -101,7 +102,7 @@ const Home = () => {
             <Flex gap="3">
               <Link
                 id="contact-linkedin"
-                href="https://www.linkedin.com/in/ketan-mohite/"
+                href="https://www.linkedin.com/in//"
                 isExternal
               >
                 <ImLinkedin fontSize={"1.6rem"} />
@@ -144,7 +145,7 @@ const Home = () => {
         >
           <Image
             className="animated-image"
-            src="https://www.alwin.io/images/wazirx/banner_img.webp"
+            src={img}
             borderRadius="1.5rem"
             height="100%"
             marginTop={"5px"}

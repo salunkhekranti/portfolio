@@ -13,7 +13,7 @@ import { MoonIcon, SunIcon, HamburgerIcon } from "@chakra-ui/icons";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Helmet } from "react-helmet";
 import { animateScroll as scroll } from "react-scroll";
-import Resume from "./Resume/Ketan Mohite FullStack developer.pdf";
+import Resume from "./Resume/KRANTI SALUNKHE's Resume.pdf";
 import Sidebar from "./Sidebar";
 import "animate.css/animate.min.css";
 import AOS from "aos";
@@ -98,7 +98,7 @@ const Navbar = () => {
     <>
       <div>
         <Helmet>
-          <title>{`Ketan | ${title}`}</title>
+          <title>{`Kranti | ${title}`}</title>
         </Helmet>
       </div>
       <Box
@@ -182,8 +182,9 @@ const Navbar = () => {
               <a
                 id="resume-link-1"
                 href={Resume}
+                 rel="noopener noreferrer"
                 target="_blank"
-                download="KetanResume.pdf"
+                download="Kranti Resume.pdf"
               >
                 Resume
               </a>

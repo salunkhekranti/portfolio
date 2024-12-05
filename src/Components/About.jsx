@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Flex, Image, Text } from "@chakra-ui/react";
-import img from "../assets/ketanImage.jpeg";
+//import img from "../assets/ketanImage.jpeg";
+import img from "../assets/kranti.jpeg";
 const About = () => {
   return (
     <>

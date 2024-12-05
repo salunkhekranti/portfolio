@@ -70,7 +70,7 @@ export default function Contacts() {
               leftIcon={<MdLocationOn color="red" size="20px" />}
               data-aos="zoom-in-up"
             >
-              Pune Maharashtra, India
+              Pune / Mumbai Maharashtra, India
             </Button>
           </SimpleGrid>
         </HStack>
@@ -84,7 +84,7 @@ export default function Contacts() {
           >
             <Link
               id="contact-linkedin"
-              href="https://www.linkedin.com/in/ashwini-nagargoje-259b5122b/"
+              href="https://www.linkedin.com/in/kranti-salunkhe-98034326b/"
               isExternal
               data-aos="flip-left"
               data-aos-easing="ease-out-cubic"
@@ -94,7 +94,7 @@ export default function Contacts() {
             </Link>
             <Link
               id="contact-github"
-              href="https://github.com/Ashwininagargoje703"
+              href="https://github.com/salunkhekranti"
               isExternal
               data-aos="flip-left"
               data-aos-easing="ease-out-cubic"
@@ -104,7 +104,7 @@ export default function Contacts() {
             </Link>
             <Link
               id="contact-email"
-              href="https://ashwininagargoje703@gmail.com"
+              href="https://salunkhekr2112@gmail.com"
               isExternal
               data-aos="flip-left"
               data-aos-easing="ease-out-cubic"
