@@ -80,8 +80,8 @@ const Home = () => {
               className="nav-link resume"
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/drive/u/0/folders/1Wczw_rwiRe26i0P3i4oIoI_gmt4PuiVh",
-                  "_blank"
+                  // "https://drive.google.com/drive/u/0/folders/1Wczw_rwiRe26i0P3i4oIoI_gmt4PuiVh",
+                  // "_blank"
                 );
               }}
             >
