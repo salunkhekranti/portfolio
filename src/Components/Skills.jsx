@@ -9,15 +9,6 @@ import { Box, Card, Image, Text } from "@chakra-ui/react";
 import styled from "styled-components";
 import next from "../assets/next-js.svg"
 const sliderData1 = [
-
-  {
-    image:
-      "https://i.pinimg.com/736x/14/7b/7e/147b7e67367ce66cb5f10886b7120957.jpg",
-    name: "Web3",
-  },
-
-
-
   {
     image:
       "https://user-images.githubusercontent.com/106812942/255094159-1381596d-06ae-422b-9321-94903c9c6cb3.png",

@@ -63,11 +63,8 @@ const Home = () => {
             />
           </Text>
           <Text textAlign={"start"} fontSize={"1.1rem"}>
-            I am an experienced React JS developer with over 2 years of
-            expertise in the MERN stack. While I have a foundational
-            understanding of Web3 technologies, my strengths lie in wallet
-            integration (MetaMask, WalletConnect) and smart contract integration
-            within React. My freelancing background highlights my adaptability
+            I am an experienced React JS developer with over 2 years of expertise in the Frontend Developer. 
+            While I have a foundational understanding of Web3 technologies, my strengths lie in  and smart contract integration within React. My freelancing background highlights my adaptability
             and skills, and I am eager to join a forward-thinking startup to
             contribute to innovative projects and help shape the future of the
             decentralized web.
