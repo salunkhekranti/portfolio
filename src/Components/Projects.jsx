@@ -17,7 +17,7 @@ export default function Projects() {
     {
       anim: "flip-right",
       image: imag1,
-      name: "GamingTheme",
+      name: "Online Pizza Delivery",
       dis: "Play Earn & Explore",
       tstack: "Web3  | JavaScript | ReactJS| NodeJS | CSS",
       github: "https://github.com/salunkhekranti/Pizzdeliveryapp",
@@ -26,7 +26,7 @@ export default function Projects() {
     {
       "anim": "flip-right",
       "image":imag2,
-      "name": "catoncreationstudio",
+      "name": "Pune",
       "description": "Showing 3D model, images and update portfolio and blogs",
       "pro": "Freelancing - Project",
       "tstack": "JavaScript | ReactJS | NodeJS | CSS | EDC",
